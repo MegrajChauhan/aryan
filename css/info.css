@@ -14,14 +14,13 @@
 
 .data .about_me {
     width: 100%;
-    padding: 2px;
-    margin: 2px;
     height: fit-content;
 }
 
 .data .para-img {
     display: flex;
     justify-content: space-evenly;
+    margin: 30px;
 }
 
 .data .para-img img {
@@ -30,7 +29,35 @@
     margin: 1rem;
 }
 
+.data .who-am-i .para {
+    margin: 30px;
+}
+
 .box {
     box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
-    margin: 1rem;
+    margin-bottom: 4rem;
+    padding: 30px;
 }
+
+.data .what-can-i-do div {
+    width: 100%;
+    height: fit-content;
+}
+
+.data .what-can-i-do .skill_imgs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.data .what-can-i-do .skill_imgs img {
+    width: 20rem;
+    height: 20rem;
+    margin: 30px;
+    border: 1px solid black;
+    /*remove*/
+}
+
+.data .what-can-i-do .skill_para p {
+    margin: 20px;
+}
+
