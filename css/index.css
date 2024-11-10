@@ -1,0 +1,23 @@
+#root {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.box-shadow {
+    box-shadow: 5px 6px 20px gray;
+}
+
+/* .hide {
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation: HideSlowly 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1 forwards;
+} */
+
+/* @keyframes HideSlowly {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+} */
